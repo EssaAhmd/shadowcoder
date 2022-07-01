@@ -1,0 +1,175 @@
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 15% 10% 15% 10%;
+}
+
+.multi {
+    color: crimson !important;
+    font-size: 2 rem;
+    font-weight: 800 !important;
+}
+
+.logo {
+    font-weight: 800 !important;
+    font-style: italic;
+}
+
+.blur {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: crimson;
+    text-decoration: overline;
+    transform: scale(1.2);
+
+}
+
+#title {
+    background-color: #EEEDFF;
+}
+
+/* button padding */
+.button_pad {
+    margin: 0 0.5%;
+}
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 15% 10% 10% 10%;
+    text-align: center;
+}
+
+.multi1 {
+    color: crimson !important;
+    font-size: 2 rem;
+    font-weight: 800 !important;
+}
+
+/* Services Section */
+#services {
+    background-color: white;
+    padding: 5% 10% 15% 10%;
+    text-align: center;
+}
+
+.skill-row {
+    width: 80%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2
+}
+
+.de {
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-right: 30px
+}
+
+.pro {
+    width: 20%;
+    height: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: crimson;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+/* Contact Section */
+#contact {
+    background-color: white;
+    padding: 5% 10% 10% 10%;
+    text-align: center;
+}
+
+.p-text {
+    background-color: #23263a;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Montserrat";
+    outline: none;
+    padding: 20px;
+    margin: 1.5rem;
+    width: 70%;
+}
+
+.text_area {
+    padding-bottom: 10rem;
+}
+
+.contact-button {
+    background-color: crimson;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin: 2rem 0 0;
+    outline: none;
+    padding: 1rem 2rem;
+
+}
+
+.contact-button:hover {
+    background: rgb(85, 11, 26);
+}
+
+/* Footer Section */
+#footer {
+    background-color: #23263a;
+    color: #fff;
+    padding: 1% 5% 0.1% 5%;
+
+}
+
+.footercontainer {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 1rem;
+}
+
+.footer-link {
+    color: #EAF6F6;
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: crimson;
+}
